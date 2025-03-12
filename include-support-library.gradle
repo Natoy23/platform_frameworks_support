@@ -31,4 +31,4 @@ apply(from:new File(buildScriptDir, 'include-composite-deps.gradle'))
 
 // include Support Library itself
 includeBuild(buildScriptDir)
-
+apply(from: '<support-lib-repo-root>/frameworks/support/include-support-library.gradle')
